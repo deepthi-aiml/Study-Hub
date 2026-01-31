@@ -273,7 +273,7 @@ export const courses: Course[] = [
     ],
     assessments: [
       { id: 'sys-a1', name: 'Practical Exam', description: 'Proctored exam', weight: '30%', alignedLOs: ['LO1-LO5'], date: '2026-05-17', venue: 'University of Moratuwa', isExam: true },
-      { id: 'sys-a2', name: 'Final Semester Exam', description: 'Written exam', weight: '70%', alignedLOs: ['All'], date: '2026-07-11', venue: 'University of Moratuwa', isExam: true }
+      { id: 'sys-a2', name: 'Final Semester Exam', description: 'Computer Based exam', weight: '70%', alignedLOs: ['All'], date: '2026-07-11', venue: 'University of Moratuwa', isExam: true }
     ]
   },
   {
@@ -544,7 +544,7 @@ export const courses: Course[] = [
     assessments: [
       { id: 'web-a1', name: 'Assignment 1', description: 'HTML/CSS Project', weight: '10%', alignedLOs: ['LO2'], date: 'Week 6-8', isExam: false },
       { id: 'web-a2', name: 'Practical Exam', description: 'Proctored exam', weight: '30%', alignedLOs: ['LO2', 'LO3'], date: '2026-05-17', venue: 'University of Moratuwa', isExam: true },
-      { id: 'web-a3', name: 'Final Semester Exam', description: 'Written exam', weight: '60%', alignedLOs: ['All'], date: '2026-07-11', venue: 'University of Moratuwa', isExam: true }
+      { id: 'web-a3', name: 'Final Semester Exam', description: 'Computer Based exam', weight: '60%', alignedLOs: ['All'], date: '2026-07-11', venue: 'University of Moratuwa', isExam: true }
     ]
   },
   {
@@ -578,7 +578,7 @@ export const courses: Course[] = [
     assessments: [
       { id: 'math-a1', name: 'Assignment 1', description: 'Quiz', weight: '10%', alignedLOs: ['LO1', 'LO2'], date: 'Week 7', isExam: false },
       { id: 'math-a2', name: 'Assignment 2', description: 'Proctored Quiz', weight: '20%', alignedLOs: ['LO3', 'LO4'], date: '2026-05-17', time: '9:00 AM - 9:30 AM', venue: 'University of Moratuwa', isExam: true },
-      { id: 'math-a3', name: 'Final Examination', description: 'Written exam', weight: '70%', alignedLOs: ['All'], date: '2026-07-12', time: '8:30 AM - 10:30 AM', venue: 'University of Moratuwa', isExam: true }
+      { id: 'math-a3', name: 'Final Examination', description: 'Computer Based exam', weight: '70%', alignedLOs: ['All'], date: '2026-07-12', time: '8:30 AM - 10:30 AM', venue: 'University of Moratuwa', isExam: true }
     ]
   },
   {
@@ -613,7 +613,7 @@ export const courses: Course[] = [
       { id: 'comm-a3', name: 'Summative Assessment 3', description: 'Dialogue quiz', weight: '5%', alignedLOs: ['LO2'], date: '2026-04-05', time: '7:00 PM - 9:00 PM', isExam: false },
       { id: 'comm-a4', name: 'Summative Assessment 4', description: 'Presentations quiz', weight: '5%', alignedLOs: ['LO2'], date: '2026-04-26', time: '7:00 PM - 9:00 PM', isExam: false },
       { id: 'comm-a5', name: 'Summative Assessment 5', description: 'Practical Exam', weight: '20%', alignedLOs: ['LO1', 'LO2'], date: '2026-05-17', time: '11:00 AM - 12:00 PM', venue: 'University of Moratuwa', isExam: true },
-      { id: 'comm-a6', name: 'Final Exam', description: 'Written exam', weight: '60%', alignedLOs: ['LO1', 'LO2'], date: '2026-07-11', time: '8:30 AM - 10:30 AM', venue: 'University of Moratuwa', isExam: true }
+      { id: 'comm-a6', name: 'Final Exam', description: 'Computer Based exam', weight: '60%', alignedLOs: ['LO1', 'LO2'], date: '2026-07-11', time: '8:30 AM - 10:30 AM', venue: 'University of Moratuwa', isExam: true }
     ]
   },
   {
@@ -649,7 +649,7 @@ export const courses: Course[] = [
       { id: 'ict-a1', name: 'Assignment 01', description: 'Individual written assignment', weight: '6%', alignedLOs: ['LO1', 'LO2'], date: 'End of Week 8', isExam: false },
       { id: 'ict-a2', name: 'Practical Exam', description: 'Hands-on practical exam', weight: '30%', alignedLOs: ['LO1', 'LO2', 'LO3'], date: '2026-05-17', time: '10:00 AM - 11:00 AM', venue: 'University of Moratuwa', isExam: true },
       { id: 'ict-a3', name: 'Assignment 02', description: 'Advanced analytical assignment', weight: '4%', alignedLOs: ['LO4', 'LO5'], date: 'End of Week 14', isExam: false },
-      { id: 'ict-a4', name: 'Final Examination', description: 'Comprehensive written exam', weight: '60%', alignedLOs: ['All'], date: '2026-07-11', time: '1:30 PM - 3:30 PM', venue: 'University of Moratuwa', isExam: true }
+      { id: 'ict-a4', name: 'Final Examination', description: 'Computer Based exam', weight: '60%', alignedLOs: ['All'], date: '2026-07-11', time: '1:30 PM - 3:30 PM', venue: 'University of Moratuwa', isExam: true }
     ]
   }
 ];
