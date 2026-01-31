@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bulbGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Book -->
+  <path d="M20 30 L20 80 Q20 85 25 85 L75 85 Q80 85 80 80 L80 30 Q80 25 75 25 L25 25 Q20 25 20 30 Z" 
+        fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  
+  <!-- Book pages -->
+  <path d="M30 35 L70 35" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <path d="M30 42 L70 42" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <path d="M30 49 L60 49" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Book spine -->
+  <path d="M50 25 L50 85" stroke="#1e40af" stroke-width="2"/>
+  
+  <!-- Lightbulb -->
+  <circle cx="50" cy="18" r="12" fill="url(#bulbGradient)"/>
+  <path d="M45 28 L45 32 L55 32 L55 28" fill="#d97706" stroke="#b45309" stroke-width="1"/>
+  <rect x="47" y="32" width="6" height="3" fill="#92400e" rx="1"/>
+  
+  <!-- Light rays -->
+  <path d="M50 6 L50 2" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M62 10 L65 7" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M38 10 L35 7" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M66 18 L70 18" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M34 18 L30 18" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+</svg>
